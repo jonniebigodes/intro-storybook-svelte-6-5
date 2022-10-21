@@ -69,11 +69,7 @@
       name="checked"
       id={`archiveTask-${task.id}`}
     />
-    <span
-      class="checkbox-custom"
-      on:click={ArchiveTask}
-      aria-label={`archiveTask-${task.id}`}
-    />
+    <span class="checkbox-custom" on:click={ArchiveTask} />
   </label>
   <label for="title" aria-label={task.title} class="title">
     <input
