@@ -5,7 +5,7 @@ import MarginDecorator from "./MarginDecorator.svelte";
 import * as TaskStories from "./Task.stories";
 
 export default {
-  component: TaskList,
+  component: PureTaskList,
   //👇 The auxiliary component will be added as a decorator to help show the UI correctly
   decorators: [() => MarginDecorator],
   title: "PureTaskList",
