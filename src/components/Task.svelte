@@ -85,6 +85,7 @@
       class="pin-button"
       on:click|preventDefault={PinTask}
       id={`pinTask-${task.id}`}
+      aria-label={`pinTask-${task.id}`}
     >
       <span class="icon-star" />
     </button>
